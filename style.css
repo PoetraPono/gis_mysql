@@ -7,9 +7,16 @@
     overflow: hidden;
 }
 #map{
-    position:absolute;
+    position:relative;
     z-index:1;
     top:0; bottom:0;
+}
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 13px;
 }
 .ol-popup {
     position: absolute;
